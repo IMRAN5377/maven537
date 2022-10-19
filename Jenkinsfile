@@ -7,7 +7,7 @@ pipeline
         {
             steps
             {
-                git 'https://github.com/intelliqittrainings/maven.git'
+                https://github.com/IMRAN5377/maven537.git
             }
         }
         stage('ContinuousBuild')
@@ -48,6 +48,7 @@ pipeline
         }
        
     }
+
     
     
     
